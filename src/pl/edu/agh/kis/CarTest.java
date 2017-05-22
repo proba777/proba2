@@ -23,6 +23,14 @@ public class CarTest {
         assertEquals("yellow",c.getColor());
     }
 
+    @org.junit.Test
+    public void setColor3() throws Exception {
+        Car c = new Car("TKA",2010,2,"green");
+        c.setColor("yellow");
+
+        assertEquals("yellow",c.getColor());
+    }
+
 
 
 }
