@@ -15,4 +15,14 @@ public class CarTest {
         assertEquals("red",c.getColor());
     }
 
+    @org.junit.Test
+    public void setColor2() throws Exception {
+        Car c = new Car("TKA",2010,2,"green");
+        c.setColor("yellow");
+
+        assertEquals("yellow",c.getColor());
+    }
+
+
+
 }
