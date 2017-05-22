@@ -1,0 +1,2 @@
+stwórz dwie klasy
+klase pojazd oraz dziedziczaca po niej klase samochod
