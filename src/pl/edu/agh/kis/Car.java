@@ -6,8 +6,8 @@ package pl.edu.agh.kis;
 public class Car extends Pojazd {
     private String color;
 
-    public Car(String rejestracja, int productionYear,String color) {
-        super(rejestracja, productionYear);
+    public Car(String rejestracja, int productionYear,int ownerCount,String color) {
+        super(rejestracja, productionYear, ownerCount);
         this.color = color;
     }
 

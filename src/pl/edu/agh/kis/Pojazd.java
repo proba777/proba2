@@ -6,11 +6,20 @@ package pl.edu.agh.kis;
 public class Pojazd {
     private String rejestracja;
     private int productionYear;
+    private int ownerCount;
 
-
-    public Pojazd(String rejestracja, int productionYear) {
+    public Pojazd(String rejestracja, int productionYear, int ownerCount) {
         this.rejestracja = rejestracja;
         this.productionYear = productionYear;
+        this.ownerCount = ownerCount;
+    }
+
+    public int getOwnerCount() {
+        return ownerCount;
+    }
+
+    public void setOwnerCount(int ownerCount) {
+        this.ownerCount = ownerCount;
     }
 
     public String getRejestracja() {
